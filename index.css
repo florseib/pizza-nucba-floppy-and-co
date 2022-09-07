@@ -167,6 +167,117 @@ body .hero {
   }
 }
 
+/* CSS GRI*/
+
+
+.section-style{
+    width: 110%;
+    height: 200px;
+    background-color: #131415;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Titulo*/
+
+.titulo{
+    background-color: #131415;
+    color: #FFFFFF;
+    font-family: 'Montserrat'; 
+}
+
+.div-style{
+    margin: 15px;
+    width: 25%;
+    height: 90px;
+    background-color: #252525;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.info-style{
+    flex-direction: column;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.imagen-style{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Imagen-menu{
+    width: 75px;
+    height: 75px;
+}
+
+.h4-style{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 131.02%;
+    color: white;
+}
+
+.h4-style2{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.h2-style{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;  
+    line-height: 131%;
+    background-image: linear-gradient(to right, #ffa100 0%, #ff005c 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.h4-style1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.3;
+}
+
+/*Boton*/
+
+.texto{
+    text-decoration: none;
+}
+
+.btn-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn1{
+    font-family: 'Montserrat';
+    color: #FFFFFF;
+    width: 85px;
+    height: 29px;
+    background:linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+    border-radius: 17.5px; 
+    border-style: none;
+    margin-right: 10px;
+}
+
+
 /* CSS EZE */
 
 .sectionStylePopular {
