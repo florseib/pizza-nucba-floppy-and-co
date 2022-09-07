@@ -1,5 +1,4 @@
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 * {
   margin: 0;
@@ -120,95 +119,6 @@ body .hero {
   z-index: -1;
 }
 
-.sectionStylePopular{
-    width: 100%;
-    height: 500px;
-    background-color: #131415;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.cardStylePopular{
-    width: 17%;
-    height: 210px;
-    background-color: #252525;
-    border-radius: 15px;
-}
-
-.imgPopular{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.infoPopular{
-    width: 100%;
-    flex-direction: column;
-    margin: 10px 12px;
-
-}
-
-.imgMenu{
-    width: 90%;
-    height: 100px;
-    margin-top: 15px;
-}
-
-.footerPopular{
-    display: flex;
-    justify-content: space-between;
-    margin: 0px 10px;
-}
-
-.title1{
-    font-family: 'Montserrat';
-    color: white;
-}
-
-.subTitle{
-    font-family: 'Montserrat';
-    color: white;
-    font-size: 12px;
-}
-
-.price{
-    font-family: 'Montserrat';
-    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
-    font-size: 1.3em;
-    font-weight: 800;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-}
-
-.btnStyle{
-    width: 80px;
-    height: 25px;
-    border-radius: 50px;
-    border-style: none;
-    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
-}
-
-.textBtn{
-    font-family: 'Montserrat';
-    font-weight: bold;
-    color: white;
-    text-decoration: none;
-}
-.containerOne{
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-}
-
-.containerTwo{
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-}
-
 @media (max-width: 1080px) {
   header .icon-container {
     width: 40%;
@@ -253,4 +163,126 @@ body .hero {
   header .home-text {
     display: none;
   }
+}
+
+/*CSS FEDERICO*/
+
+.div_categorias{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+
+.div_categorias div{
+  width: 147px;
+  height: 171px;
+  border-radius: 15px;
+  background-color: #252525;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1;
+  
+
+
+}
+
+.div_categorias div img{
+  position: absolute;
+  margin-top: 11px;
+  z-index: 2;
+  
+  
+}
+
+.sub_div:hover{
+  cursor: pointer;
+  transition: 1.5s;
+  transform: rotate(360deg) scale(1.5);    
+}
+
+
+
+
+.div_categorias div h5{
+  color: #ffffff;
+  position: absolute;
+  width: 47px;
+  height: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 131.02%;
+  display: flex;
+  justify-content: center;
+  margin-top: 99px;
+  z-index: 3;
+  
+
+
+}
+
+.sub_sub_div2{
+  position: absolute;
+  width: 24px;
+  height: 5px;
+  margin-top: 145px;
+  background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+  box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+  border-radius: 15px;
+}
+
+
+
+
+
+footer{
+  background-color: #252525;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  font-weight: 400px;
+  
+
+  
+  
+  
+}
+
+.links{
+  color: white;
+  text-decoration: none;
+  
+
+}
+
+
+
+
+.div_footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+}
+
+
+
+
+
+.redes_sociales img{
+  max-width: 40px;
+  max-height: 40px;
+  margin-left: 60px;
+}
+
+
+
+.redes_sociales img:hover{
+  cursor: pointer;
+  transform: scale(2);
+  transition: 1s;
 }
