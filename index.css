@@ -326,6 +326,7 @@ footer {
   font-family: 'Montserrat', sans-serif;
   font-size: 17px;
   font-weight: 400px;
+  margin-top: 55px;
 }
 
 .links {
@@ -362,6 +363,7 @@ footer {
   height: 20%;
   justify-content: space-around;
   align-items: center;
+  margin-top: 50px;
 }
 
 .secghcards {
