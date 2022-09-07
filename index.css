@@ -352,22 +352,24 @@ footer {
   transition: 1s;
 }
 
-.divghcards{
+/* CODIGO GERO */
+
+.divghcards {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   width: 100%;
   height: 20%;
   justify-content: space-around;
-  align-items: center;  
+  align-items: center;
 }
 
-.secghcards{
+.secghcards {
   display: flex;
   gap: 40px;
 }
 
-.ghcards{
+.ghcards {
   display: flex;
   width: 17vw;
   height: 34vh;
@@ -376,35 +378,35 @@ footer {
   gap: 23px;
   justify-content: center;
   box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
-  inset -5px -5px 15px rgba(255, 255, 255, 0.1),
-  5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);
-border-radius: 15px;
--webkit-transition: all 0.5s linear;
-    -moz-transition: all 0.5s linear;
-    -ms-transition: all 0.5s linear;
-    -o-transition: all 0.5s linear;
-    transition: all 0.5s linear;  
-    background-color: #373a3e;
-background-image: linear-gradient(90deg, #373a3e 0%, #1d1d1d 100%);  
+    inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -ms-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+  background-color: #373a3e;
+  background-image: linear-gradient(90deg, #373a3e 0%, #1d1d1d 100%);
 }
 
-.ghcards:hover{
+.ghcards:hover {
   transform: translateY(-50px);
-  }
+}
 
-.ghcards i{
+.ghcards i {
   font-size: 10em;
   color: #46474A;
 }
 
-.ghcards h2{
+.ghcards h2 {
   font-size: 1.3em;
   font-family: 'Fjalla One', sans-serif;
   font-weight: 400;
   color: black;
 }
 
-.ghcards button{
+.ghcards button {
   font-size: 1.2em;
   background-color: #2A2B2F;
   color: white;
