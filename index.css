@@ -182,6 +182,7 @@ body .hero {
 /*Titulo*/
 
 .titulo {
+  margin-top: 20px;
   background-color: #131415;
   color: #FFFFFF;
   font-family: 'Montserrat';
@@ -283,6 +284,7 @@ body .hero {
 .sectionStylePopular {
   width: 100%;
   height: 500px;
+  margin-top: 20px;
   background-color: #131415;
   display: flex;
   flex-direction: column;
@@ -375,6 +377,7 @@ body .hero {
 .categorias {
   width: 90%;
   margin-bottom: 2em;
+  margin-top: 2em
 }
 
 .div_categorias {
