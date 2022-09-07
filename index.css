@@ -15,7 +15,7 @@ body {
   flex-wrap: wrap;
   min-height: 100vh;
   padding-top: 200px;
-  background: #252525;
+  background: #131415;
 }
 
 /* CSS FLOPPY */
@@ -260,6 +260,12 @@ body .hero {
 }
 
 /* CSS FEDERICO */
+
+.categorias {
+  width: 90%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
 
 .div_categorias {
   display: flex;
