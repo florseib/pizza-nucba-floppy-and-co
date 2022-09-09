@@ -511,6 +511,27 @@ footer {
   .hero .images-container .image-2 {
     height: 235px;
   }
+
+  .div_categorias {
+    width: 100%;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    gap: 7px;
+  }
+
+  footer {
+    height: 150px;
+  }
+
+  .redes_sociales {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .div_footer {
+    margin-top: 20px;
+  }
 }
 
 @media (min-width:769px) {
@@ -590,5 +611,24 @@ footer {
     inset: 0;
     margin: auto;
     height: 200px;
+  }
+
+  .div_categorias {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  footer {
+    height: 150px;
+  }
+
+  .redes_sociales {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .div_footer {
+    margin-top: 20px;
   }
 }
